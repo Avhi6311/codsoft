@@ -1,0 +1,215 @@
+/* General styling for dark theme */
+body {
+    background-color: #121212;
+    /* Dark background */
+    color: #e0e0e0;
+    /* Light text for contrast */
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header section */
+header {
+    background-color: #1f1f1f;
+    /* Slightly lighter dark background */
+    color: #ffffff;
+    /* White text */
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 2.5em;
+}
+
+/* Navigation Bar */
+nav {
+    background-color: #333333;
+   
+    padding: 10px;
+    text-align: center;
+}
+
+nav a {
+    color: #ffffff;
+    /* White text for links */
+    margin: 0 15px;
+    text-decoration: none;
+    font-size: 1.2em;
+}
+
+nav a:hover {
+    color: #f1f1f1;
+    /* Light color on hover */
+}
+
+/* Main Section */
+main {
+    padding: 40px;
+}
+#home {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    text-align: center;
+    background: url('big.jpg') no-repeat center/cover;
+}
+#justify{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 70vh;
+    text-align: center;
+    background: url('https://th.bing.com/th/id/OIP.aTPLvbFiPpEhFfC6aWKubQHaE7?w=292&h=195&c=7&r=0&o=5&dpr=1.9&pid=1.7') no-repeat center/cover;
+     
+}
+
+#login {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50vh;
+    text-align: center;
+}
+.contact {
+    background: #121212;
+    padding: 40px;
+    text-align: center;
+    color: white;
+}
+
+.contact h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.contact p {
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+
+footer {
+    background-color: #1f1f1f;
+    color: #b0b0b0;
+    padding: 10px;
+    text-align: center;
+}
+
+a {
+    color: #66bb6a;
+}
+
+a:hover {
+    color: #81c784;
+}
+
+button {
+    background-color: #444444;
+    /* Dark background for buttons */
+    color: #ffffff;
+    /* White text on buttons */
+    border: 2px solid #333333;
+    /* Border to contrast with background */
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 1.1em;
+    transition: all 0.3s ease-in-out;
+}
+
+button:hover {
+    background-color: #666666;
+    /* Lighter dark color when hovered */
+    border-color: #444444;
+    /* Slightly lighter border */
+}
+
+/* Input fields */
+input[type="text"],
+input[type="email"],
+textarea {
+    background-color: #333333;
+    /* Dark input background */
+    color: #ffffff;
+    /* White text in inputs */
+    border: 1px solid #555555;
+    /* Slightly lighter border */
+    padding: 10px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+textarea:focus {
+    border-color: #66bb6a;
+    /* Highlight border on focus */
+    outline: none;
+}
+
+/* Cards and Sections */
+section,
+.card {
+    background-color: #1e1e1e;
+    /* Dark card backgrounds */
+    padding: 20px;
+    margin: 20px 0;
+    border-radius: 8px;
+}
+
+/* Table Styling */
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th,
+td {
+    padding: 10px;
+    text-align: left;
+    border: 1px solid #444444;
+}
+
+th {
+    background-color: #333333;
+    color: #ffffff;
+}
+
+td {
+    background-color: #222222;
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+    width: 8px;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #555555;
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-track {
+    background-color: #1f1f1f;
+}
+
+/* Footer */
+footer {
+    background-color: #111111;
+    color: #777777;
+    padding: 20px;
+    text-align: center;
+}
+
+footer a {
+    color: #66bb6a;
+    /* Green color for footer links */
+    text-decoration: none;
+}
+
+footer a:hover {
+    color: #81c784;
+    /* Light green on hover */
+}
